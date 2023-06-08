@@ -5,6 +5,12 @@ import prompt
 
 
 def is_prime(number: int) -> str:
+    """
+    Checks number prime.
+
+    :param number: Int
+    :return: Str
+    """
     for i in range(2, number // 2 + 1):
         if number % i == 0:
             return 'no'
@@ -12,6 +18,12 @@ def is_prime(number: int) -> str:
 
 
 def brain_prime_game(name: str) -> None:
+    """
+    Play brain-prime game.
+
+    :param name: Str
+    :return: None
+    """
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for i in range(3):
         number = randint(1, 100)

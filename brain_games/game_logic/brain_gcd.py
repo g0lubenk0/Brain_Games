@@ -4,6 +4,13 @@ import prompt
 
 
 def get_finish(a: int, b: int) -> int:
+    """
+    Gets the smallest of two integers.
+
+    :param a: Int
+    :param b: Int
+    :return: Int
+    """
     if a < b:
         finish = a
     else:
@@ -12,6 +19,13 @@ def get_finish(a: int, b: int) -> int:
 
 
 def find_gcd(a: int, b: int) -> int:
+    """
+    Find GCD for two integers.
+
+    :param a: Int
+    :param b: Int
+    :return: Int
+    """
     for i in range(get_finish(a, b), 1, -1):
         if a % i == 0 and b % i == 0:
             return i
@@ -19,6 +33,12 @@ def find_gcd(a: int, b: int) -> int:
 
 
 def brain_gcd_game(name: str) -> None:
+    """
+    Play brain-gcd game.
+
+    :param name: Str
+    :return: None
+    """
     print('Find the greatest common divisor of given numbers.')
     for i in range(3):
         a, b = randint(1, 50), randint(1, 50)

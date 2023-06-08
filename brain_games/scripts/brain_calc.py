@@ -3,7 +3,12 @@ from brain_games.game_logic.default import initial
 from brain_games.game_logic.brain_calc import brain_calc_game
 
 
-def main():
+def main() -> None:
+    """
+    Brain-calc game.
+
+    :return: None
+    """
     brain_calc_game(initial())
 
 
