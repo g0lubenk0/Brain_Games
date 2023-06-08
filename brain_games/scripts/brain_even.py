@@ -4,6 +4,11 @@ from brain_games.game_logic.brain_even import brain_even_game
 
 
 def main() -> None:
+    """
+    Brain-even game.
+
+    :return: None
+    """
     brain_even_game(initial())
 
 

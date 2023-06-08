@@ -4,6 +4,11 @@ import prompt
 
 
 def generate() -> list:
+    """
+    Generates list of progression.
+
+    :return: List
+    """
     step = randint(1, 10)
     array = [randint(1, 100)]
     for i in range(1, 10):
@@ -12,6 +17,12 @@ def generate() -> list:
 
 
 def transform(progression: any) -> str:
+    """
+    Transforms progression list to string.
+
+    :param progression: Any
+    :return: Str
+    """
     string = ''
     for i in range(len(progression) - 1):
         string += str(progression[i]) + ' '
@@ -20,6 +31,12 @@ def transform(progression: any) -> str:
 
 
 def hide_element(progression: list) -> tuple:
+    """
+    Hides one random element in list.
+
+    :param progression: List
+    :return: Tuple
+    """
     index = randint(0, len(progression) - 1)
     temp = progression[index]
     progression[index] = '..'
@@ -27,6 +44,12 @@ def hide_element(progression: list) -> tuple:
 
 
 def brain_progression_game(name: str) -> None:
+    """
+    Play brain-progression game.
+
+    :param name: Str
+    :return: None
+    """
     print('What number is missing in the progression?')
     for i in range(3):
         progression = generate()

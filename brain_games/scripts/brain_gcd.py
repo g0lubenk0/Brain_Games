@@ -3,7 +3,12 @@ from brain_games.game_logic.default import initial
 from brain_games.game_logic.brain_gcd import brain_gcd_game
 
 
-def main():
+def main() -> None:
+    """
+    Brain-GCD game.
+
+    :return: None
+    """
     brain_gcd_game(initial())
 
 
