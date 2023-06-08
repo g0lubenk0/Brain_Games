@@ -10,3 +10,6 @@ Brain-Even
 
 Brain-Calc
 [![asciicast](https://asciinema.org/a/dlJXbbZgUrAsVjr1KTV4RZA9v.svg)](https://asciinema.org/a/dlJXbbZgUrAsVjr1KTV4RZA9v)
+
+Brain-GCD
+[![asciicast](https://asciinema.org/a/R8go1UjAebYxOFo2XFSLGokli.svg)](https://asciinema.org/a/R8go1UjAebYxOFo2XFSLGokli)
