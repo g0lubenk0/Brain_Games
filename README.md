@@ -5,4 +5,8 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/026fefad4d59a2bdbc31/test_coverage)](https://codeclimate.com/github/g0lubenk0/python-project-49/test_coverage)
 
+Brain-Even
 [![asciicast](https://asciinema.org/a/K0xP7aqPAfRjKbvuDtQGWovv3.svg)](https://asciinema.org/a/K0xP7aqPAfRjKbvuDtQGWovv3)
+
+Brain-Calc
+[![asciicast](https://asciinema.org/a/dlJXbbZgUrAsVjr1KTV4RZA9v.svg)](https://asciinema.org/a/dlJXbbZgUrAsVjr1KTV4RZA9v)
