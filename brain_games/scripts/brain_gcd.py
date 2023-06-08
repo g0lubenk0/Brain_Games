@@ -4,8 +4,7 @@ from brain_games.game_logic.brain_gcd import brain_gcd_game
 
 
 def main():
-    name = initial()
-    brain_gcd_game(name)
+    brain_gcd_game(initial())
 
 
 if __name__ == '__main__':
