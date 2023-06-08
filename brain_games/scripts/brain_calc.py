@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 from brain_games.game_logic.default import initial
-from brain_games.game_logic.brain_even import brain_even_game
+from brain_games.game_logic.brain_calc import brain_calc_game
 
 
-def main() -> None:
+def main():
     name = initial()
-    brain_even_game(name)
+    brain_calc_game(name)
 
 
 if __name__ == '__main__':

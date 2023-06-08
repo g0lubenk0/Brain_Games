@@ -1,8 +1,15 @@
 import prompt
+from brain_games.scripts.brain_games import greet
+
+
+def initial() -> str:
+    greet()
+    name = welcome_user_name()
+    return name
 
 
 def game_stop(answer: any, secret: any, name: str) -> None:
-    print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{is_even(secret)}\'.')
+    print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{secret}\'.')
     print(f'Let\'s try again, {name}!')
 
 
