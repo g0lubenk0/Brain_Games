@@ -2,7 +2,7 @@ from random import randint
 
 import prompt
 
-from brain_games.game_logic.default import is_even, game_stop, game_finish
+from brain_games.game_logic.default import game_stop, game_finish
 
 
 def get_random_operation() -> str:
