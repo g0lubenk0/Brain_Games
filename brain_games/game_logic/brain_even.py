@@ -11,7 +11,7 @@ def brain_even_game(name: str) -> None:
         if answer.lower() == is_even(secret):
             print('Correct!')
         else:
-            game_stop(answer, secret, name)
+            game_stop(answer, is_even(secret), name)
             break
     else:
         game_finish(name)
